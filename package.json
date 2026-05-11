@@ -1,0 +1,15 @@
+{
+  "name": "fitcol-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proxy seguro entre Fitcol (GitHub Pages) y la API de Anthropic.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240909.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^3.78.0"
+  }
+}
